@@ -1,6 +1,10 @@
-// $(document).ready(function() {
-//     const array1 = iceCreamFlavors;
-//     let list = array1.toString()
+$(document).ready(function() {
 
-//     $("#answer").text("Solution 3: " + list);
-//  })
+    let flavorList = [];
+
+    for (const element of iceCreamFlavors) {
+        flavorList.push("<li>" + element + "</li>" + "<br>")
+    }
+    
+    $(".ice-cream-list").append(flavorList);
+ })
