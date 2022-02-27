@@ -2,6 +2,12 @@ body {
     background-color: aquamarine;
 }
 
+.jumbotron {
+    background-color: white;
+}
+
+
+
 .ice-cream-list {
     text-align: center;
     list-style:inside;

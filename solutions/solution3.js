@@ -1,10 +1,10 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    let flavorList = [];
+//     let flavorList = [];
 
-    for (const element of iceCreamFlavors) {
-        flavorList.push("<li>" + element + "</li>" + "<br>")
-    }
+//     for (const element of iceCreamFlavors) {
+//         flavorList.push("<li>" + element + "</li>" + "<br>")
+//     }
     
-    $(".ice-cream-list").append(flavorList);
- })
+//     $(".ice-cream-list").append(flavorList);
+//  })
