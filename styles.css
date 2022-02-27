@@ -1,4 +1,8 @@
+body {
+    background-color: aquamarine;
+}
+
 .ice-cream-list {
     text-align: center;
-    list-style: inside;
+    list-style:inside;
 }
