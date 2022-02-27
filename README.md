@@ -1,58 +1,15 @@
-# Ice Cream Flavor Challenge
+## Instructions by Garrett Brown
 
-Front end A/B testing demands a strong working knowledge of DOM manipulation. There are often many different ways to achieve the same result.
+The user can test all three solutions by either:
 
-## Javascript Challenge
+ 1. Unstriking each solution individually at a time (Delete all "//" or select all code and press [CTRL + C + /] ) and testing the code in Live Server through 
 
-**Provide JavaScript code which will manipulate the initial state of an HTML document with an empty unordered list such that the list will contain 7 ice cream flavors from the global array `iceCreamFlavors` with each flavor as child text of a _li_ element with the class "ice-cream-flavor".**
+ OR
 
-Your challenge is to provide meaningfully different solutions using various techniques. Please provide at least 3 solutions, but you are welcome to do as many as you'd like. Each solution should be its own file under a `solutions/` directory. Filenames should follow the following convention: `solution1.js`, `solution2.js`, etc. Clone this repo and provide your solutions on your GitHub account. See email for submission instructions.
+2. Unstriking each solution individually at a time (Delete all "//" or select all code and press [CTRL + C + /] ) and pasting the code in the Browser Console.
 
-## CSS Challenge
+For my three solutions, I used a forEach Loop, a for Loop, and a for... of Loop. If you would like me to submit different possible solutions, please let me know. 
 
-Use the included `styles.css` file to vertically and horizontally center the ice cream list `ul` while keeping the the ice cream flavor `li`s left-aligned.
+Thank you!
 
-Beyond that, add whatever styles you see fit to show off your CSS skills. Please, though, don't feel pressured to spend more than an hour on this portion.
-
-### Expected output
-
-Initial state of the list:
-
-```
-  <ul class="ice-cream-list">
-  </ul>
-```
-
-Expected goal state of the list:
-
-```
-  <ul class="ice-cream-list">
-    <li class="ice-cream-flavor">vanilla</li>
-    <li class="ice-cream-flavor">chocolate</li>
-    <li class="ice-cream-flavor">Cherry Garcia</li>
-    <li class="ice-cream-flavor">Neopolitan</li>
-    <li class="ice-cream-flavor">French vanilla</li>
-    <li class="ice-cream-flavor">bubble gum</li>
-    <li class="ice-cream-flavor">butter pecan</li>
-  </ul>
-```
-
-### Assumptions About Code Execution
-
-- The DOM will be in the fully-loaded state of the markup included in this repo. _See_ `index.html`
-- Your code will execute in a global context. _(e.g. pasted in the browser console)_
-- The DOM state will reset for each solution.
-- jQuery will be available globally as `jQuery` or `$`.
-- An array of strings (ice cream flavors) will be available globally as `iceCreamFlavors`. The flavors exist in the array as follows:
-
-```
-[
-  'vanilla',
-  'chocolate',
-  'Cherry Garcia',
-  'Neopolitan',
-  'French vanilla',
-  'bubble gum',
-  'butter pecan'
-];
-```
+Garrett Brown
