@@ -3,7 +3,7 @@
 //     let flavorList = [];
 
 //     for (const element of iceCreamFlavors) {
-//         flavorList.push("<li>" + element + "</li>" + "<br>")
+//         flavorList.push("<li class='ice-cream-list'>" + element + "</li>" + "<br>")
 //     }
     
 //     $(".ice-cream-list").append(flavorList);

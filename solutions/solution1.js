@@ -2,7 +2,7 @@
 //     const array = iceCreamFlavors
 //     let flavorList = [];
 //     array.forEach(function(element) {
-//         flavorList.push("<li>" + element + "</li>" + "<br>");
+//         flavorList.push("<li class='ice-cream-list'>" + element + "</li>" + "<br>");
 //     });
     
 //     $(".ice-cream-list").append(flavorList);

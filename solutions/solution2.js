@@ -3,7 +3,7 @@
 //     let flavorList = [];
 
 //     for (let i = 0; i <= array.length; i  +=1) {
-//         flavorList.push("<li>" + array[i] + "</li>" + "<br>")
+//         flavorList.push("<li class='ice-cream-list'>" + array[i] + "</li>" + "<br>")
 //     }
     
 //     $(".ice-cream-list").append(flavorList);
